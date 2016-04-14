@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   	hello = "<h1>Hello World! after change <h1/> <h5> and the little version<h5/> "
   end
   def goodbye
-	render text: "<h3> #{hello}, And here is goodbye<h3/>"
+	render text: "<h3> #{hello}, And here is goodbye for now<h3/>"
 
   end
 end
